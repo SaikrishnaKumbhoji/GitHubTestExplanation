@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Added a line in ViewController")
     }
    
     @IBAction func buttonClicked(_ sender: Any) {
@@ -20,9 +21,12 @@ class ViewController: UIViewController {
         print("Saikrishna has Changed")
     }
     
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
     
